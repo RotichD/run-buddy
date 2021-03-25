@@ -208,12 +208,12 @@ section {
     max-width: 100%;
 }
 
-.steps-text p {
+.step-text p {
     color: #39a6b2;
     font-size: 18px;
 }
 
-.step-text: {
+.step-text {
     flex: 12;
 }
 
@@ -296,6 +296,12 @@ section {
 .contact-info div {
     color: white;
 }
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 
 
 .contact-info h3 {
